@@ -120,6 +120,7 @@ jobs:
           TEST_PYPI_TOKEN: ${{ secrets.TEST_PYPI_TOKEN }}
 
       - name: Pusblish to ProdPyPI
+        if: success() || failure()
         run: |
           /bin/bash -x run.sh publish:prod
         env:

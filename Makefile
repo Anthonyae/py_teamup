@@ -22,7 +22,7 @@ lint-ci:
 publish-prod: # This does not need to be used
 	bash run.sh publish:prod
 
-publish-test: # This does not need to be used 
+publish-test: # This does not need to be used
 	bash run.sh publish:test
 
 release-prod:
