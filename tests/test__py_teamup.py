@@ -4,7 +4,7 @@ from unittest.mock import patch
 
 import pytest
 
-from py_teamup.teamup_api import DEFAULT_CALENDAR_ID, TeamUP
+from teamup_connect.teamup_api import DEFAULT_CALENDAR_ID, TeamUP
 
 
 @pytest.fixture(scope="session")

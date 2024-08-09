@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 
 [project]
-name = "py_teamup"
+name = "teamup_connect"
 description = "A package designed to facilitate easy interaction with TeamUp API."
 authors = [{ name = "Tony", email = "cordial.egg1739@fastmail.com" }]
 readme = "README.md"

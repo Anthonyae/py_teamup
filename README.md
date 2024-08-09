@@ -27,7 +27,7 @@ Review the `.env.example` file for the required/optional environment variables.
 This covers the main use cases for the library.
 
 ```python
-from py_teamup import TeamUP
+from teamup_connect import TeamUP
 
 teamup = TeamUP()
 
